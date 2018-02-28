@@ -1,0 +1,60 @@
+body{
+  margin: 0;
+  background-color: #333;
+}
+h1, span{
+  text-align: center;
+  font-family: monospace;
+  color: white;
+}
+div.infos{
+  display: flex;
+  justify-content: space-around;
+  margin: 0 30%;
+}
+div.infos span{
+  font-weight: bold;
+  font-size: 1.4em;
+  flex: 1;
+}
+table{
+  margin: auto;
+  margin-top: 40px;
+}
+table, td{
+  border: 1px solid green;
+}
+td{
+  width: 100px;
+  height: 100px;
+}
+footer{
+  padding: 40px;
+  text-align: center;
+}
+td > div{
+  border-radius: 50%;
+  margin: auto;
+  height: 70%;
+  width: 70%;
+}
+td > div.red{
+  background-color: red;
+}
+td > div.blue{
+  background-color: blue;
+}
+span.red{
+  background-color: red;
+}
+span.blue{
+  background-color: blue;
+}
+#result{
+  display: none;
+}
+button{
+  font-weight: bold;
+  height: 50px;
+  width: 100px;
+}
